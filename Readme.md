@@ -1,4 +1,3 @@
-## API Endpoints
 
 | Method | Path                     | Description                     |
 |--------|--------------------------|---------------------------------|
@@ -121,3 +120,10 @@
 ```json
 {}
 ```
+
+## How to Use the Front End
+
+1. Open `index.html` to view the list of articles.
+2. Click the "Add New" button to add a new article.
+3. Click the edit icon to edit an article.
+4. Click the trash icon to move an article

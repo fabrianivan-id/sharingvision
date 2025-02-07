@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Article</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Article</h1>
+        <form id="editForm">
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" id="editTitle" required minlength="20">
+            </div>
+            <div class="form-group">
+                <label>Content:</label>
+                <textarea id="editContent" required minlength="200"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Category:</label>
+                <input type="text" id="editCategory" required minlength="3">
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="updateArticle('publish')">Publish</button>
+                <button type="button" onclick="updateArticle('draft')">Save as Draft</button>
+            </div>
+        </form>
+    </div>
+
+    <script
